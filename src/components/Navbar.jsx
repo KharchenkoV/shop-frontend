@@ -48,10 +48,10 @@ const Navbar = ({amountProducts}) => {
                 </>
                 ) : (
                     <div className={classes.menu}>
-                        <Button  color="inherit" href='/login' className={classes.menuItem}>
+                        <Button variant="outlined"  color="inherit" href='/login' className={classes.menuItem}>
                             Вхід
                         </Button>
-                        <Button  color="inherit" href='/register' className={classes.menuItem}>
+                        <Button variant="outlined"  color="inherit" href='/register' className={classes.menuItem}>
                             Реєстрація
                         </Button>
                     </div>
